@@ -25,9 +25,11 @@ function f3() {
 
 const f4 = f3();
 f4();
+```
 
 ## Promises
 
+```
 Promise.resolve(1)
 .then(data => 1 + 1)
 .then(() => {throw new Error(10)})
@@ -39,8 +41,11 @@ Promise.resolve(1)
 function promisesTest() {
 
 }
+```
 
 ## Event Loop
+
+```
 function executionTest() {
   console.log('1');
   setTimeout(() => {
@@ -53,7 +58,6 @@ executionTest();
 ```
 
 ## Closure
-
 
 ## Open Ended Questions
 + What is Lexical Scope?
