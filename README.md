@@ -2,7 +2,7 @@
 
 
 ## Functions
-
+```
 function f1() {
   const a = 10;
   f2();
@@ -50,6 +50,7 @@ function executionTest() {
 }
 
 executionTest();
+```
 
 ## Closure
 
