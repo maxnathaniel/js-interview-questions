@@ -115,4 +115,5 @@ obj.b();
 + https://stackoverflow.com/questions/19743354/does-javascript-event-queue-have-priority
 + https://stackoverflow.com/questions/43592229/promise-then-job-execution-order/43592450#43592450
 + https://stackoverflow.com/questions/7575589/how-does-javascript-handle-ajax-responses-in-the-background/7575649#7575649
++ Is `const` immutable?
 
