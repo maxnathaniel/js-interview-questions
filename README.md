@@ -69,6 +69,26 @@ executionTest();
 
 ## Closure
 
+
+## Async await
+
+```
+async function asyncFunc(num) {
+  const result = promiseA();
+  return result + num;
+}
+
+function promiseA() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(10);
+    }, 1000);
+  });
+}
+
+asyncFunc(10);
+
+```
 ## This
 
 ```
