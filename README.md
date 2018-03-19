@@ -73,7 +73,7 @@ executionTest();
 ## Async await
 
 ```
-async function asyncFunc(num) {
+async function asyncFunc1(num) {
   const result = promiseA();
   return result + num;
 }
@@ -86,7 +86,22 @@ function promiseA() {
   });
 }
 
-asyncFunc(10);
+asyncFunc1(10);
+
+async function asyncFunc2(num) {
+  const result = await promiseA();
+  return result + num;
+}
+
+function promiseB() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(10);
+    }, 1000);
+  });
+}
+
+asyncFunc2(20);
 
 ```
 ## This
