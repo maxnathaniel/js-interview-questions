@@ -59,9 +59,50 @@ executionTest();
 
 ## Closure
 
+## This
+
+```
+const obj = {
+  a: 10,
+  b: function() {
+    return this.a;
+  }
+}
+
+obj.b();
+
+const funcA = obj.b;
+funcA();
+
+const obj = {
+  a: 10,
+  b: () => {
+    return this.a;
+  }
+}
+
+obj.b();
+
+function funcB() {
+  return this;
+}
+
+funcB();
+
+obj.b = funcB;
+obj.b();
+
+```
+
 ## Open Ended Questions
 + What is Lexical Scope?
 + What is `this` keyword?
 + When is the scope of a function created?
++ https://stackoverflow.com/questions/7291734/javascript-scope-issue-variable-not-being-identified
 + What is hoisting?
 + What is a closure?
++ How does the event loop work?
++ https://stackoverflow.com/questions/19743354/does-javascript-event-queue-have-priority
++ https://stackoverflow.com/questions/43592229/promise-then-job-execution-order/43592450#43592450
++ https://stackoverflow.com/questions/7575589/how-does-javascript-handle-ajax-responses-in-the-background/7575649#7575649
+
