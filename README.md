@@ -1,4 +1,4 @@
-# js-interview-questions
+# Top JavaScript Interview Questions
 
 ## Introduction
 
@@ -153,3 +153,7 @@ obj.b();
 + https://thomashunter.name/blog/the-javascript-event-loop-presentation/
 + Is `const` immutable?
 
+
+# Free eBooks
++ [Eloquent JavaScript](http://eloquentjavascript.net/) - 3rd Edition of the hugely popular free eBook
++ [You don't know JS](https://github.com/getify/You-Dont-Know-JS) - This has to be one of the BEST JavaScript resources around
